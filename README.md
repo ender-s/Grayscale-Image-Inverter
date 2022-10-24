@@ -24,6 +24,9 @@ $ ./image_inverter input.bmp output
 ```
 <br />
 
+## Input BMP Image
+![Input BMP image](https://raw.githubusercontent.com/ender-s/Grayscale-Image-Inverter/main/images/input.bmp)
+
 ## Outputs
 ### Output BMP Image
 ![Output BMP image](https://raw.githubusercontent.com/ender-s/Grayscale-Image-Inverter/main/images/output.bmp)
