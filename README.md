@@ -1,5 +1,5 @@
 # Grayscale-Image-Inverter
-A C program that inverts grayscale 8-bit depth bmp images.
+A C program that inverts grayscale 8-bit depth bmp images. The output is saved as both bmp and pgm formats.
 
 <br />
 
@@ -22,3 +22,10 @@ $ make
 ```bash
 $ ./image_inverter input.bmp output
 ```
+<br />
+
+## Outputs
+### Output BMP Image
+![Output BMP image](https://raw.githubusercontent.com/ender-s/Grayscale-Image-Inverter/main/images/input.bmp)
+
+Output pgm image can be found [here](./images/output.pgm).
