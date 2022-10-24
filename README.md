@@ -26,6 +26,6 @@ $ ./image_inverter input.bmp output
 
 ## Outputs
 ### Output BMP Image
-![Output BMP image](https://raw.githubusercontent.com/ender-s/Grayscale-Image-Inverter/main/images/input.bmp)
+![Output BMP image](https://raw.githubusercontent.com/ender-s/Grayscale-Image-Inverter/main/images/output.bmp)
 
 Output pgm image can be found [here](./images/output.pgm).
