@@ -1,0 +1,14 @@
+image_inverter:dir main
+	gcc build/main.o build/complement.o build/arraytoimage.o build/dynamic.o build/utils.o -o image_inverter
+main:complement utils
+	gcc -std=c99 -c src/main.c -o build/main.o
+complement:arraytoimage dynamic
+	gcc -std=c99 -c src/complement.c -o build/complement.o
+arraytoimage:
+	gcc -std=c99 -c src/arraytoimage.c -o build/arraytoimage.o
+dynamic:
+	gcc -std=c99 -c src/dynamic.c -o build/dynamic.o
+utils:
+	gcc -std=c99 -c src/utils.c -o build/utils.o
+dir:
+	mkdir -p build
