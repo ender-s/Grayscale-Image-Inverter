@@ -5,7 +5,6 @@ A C program that inverts grayscale 8-bit depth bmp images. The output is saved a
 
 # Compilation
 ```bash
-$ cd src/
 $ make
 ```
 
